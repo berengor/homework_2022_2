@@ -12,50 +12,10 @@
 
 /*Адрес rgba(255, 255, 255, 0.6);*/
 
-:root{
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196F3;
-  --button-color: #188CE8;
-  --background-color: #FFFFFF;
-}
 
 
-.page{
-  background-color: #FFFFFF;
-  color: var(--primary-text-color);
-}
-
-/*Site navigation*/
-.site-nav .link{
-  color: var(--title-text-color);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus{
-  color: var(--accent-color);
-}
-
-.site-nav .link.current{
-  color: var(--accent-color)
-}
-
-.list{
-  list-style: none;
-}
-
-.logo{
-  color: #000000;
+a{
   text-decoration: none;
-}
-
-.logo:hover,
-.logo:focus{
-  color: var(--accent-color);
-}
-
-.logo-style{
-  color: var(--accent-color);
 }
 
 /*Герой*/
@@ -63,9 +23,8 @@
   color: #FFFFFF;
 }
 .btn{
-  text-decoration: none;
   color: var(--background-color);
-  background-color: var( --button-color);
+  background-color: var(--button-color);
 
 }
 
@@ -84,3 +43,21 @@
 .address{
   color: rgba(255, 255, 255, 0.6);
 }
+
+/*PORTFOLIO*/
+
+
+.list .filter{
+  color: var(--title-text-color);
+  background-color: #F5F4FA;
+}
+
+.list .filter:hover,
+.list .filter:focus{
+  color: #FFFFFF;
+  background-color: var(--accent-color);
+}
+
+
+
+
