@@ -12,49 +12,109 @@
 
 /*Адрес rgba(255, 255, 255, 0.6);*/
 
-
-
-a{
-  text-decoration: none;
-}
-
 /*Герой*/
-.hero-title{
+.hero-title {
   color: #FFFFFF;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
-.btn{
+
+.btn {
   color: var(--background-color);
   background-color: var(--button-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
-
 /*Чем мы занимаемся*/
-.doing-list{
+.block-title {
   color: #000000;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*Our team*/
+.section-name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team-work {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 /*Секция*/
-.section-title{
+.section-title {
   color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-/*Футер*/
-.address{
-  color: rgba(255, 255, 255, 0.6);
+.section-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /*PORTFOLIO*/
-.list .filter{
-  color: var(--title-text-color);
-  background-color: #F5F4FA;
-}
 
 .list .filter:hover,
-.list .filter:focus{
+.list .filter:focus {
   color: #FFFFFF;
   background-color: var(--accent-color);
 }
 
+.filter {
+  color: var(--title-text-color);
+  background-color: #F5F4FA;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.list .title{
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.list .desc{
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.list .excerpt{
+  color: var(--background-color);
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+}
 
 
 
